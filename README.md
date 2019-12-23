@@ -4,9 +4,9 @@ This Windows WPF app demonstrates a few cool features of an encryption algorithm
 
 How does my algorithm work? A random integer is generated and embedded in the encrypted message. The random integer is added to each encrypted code, along with the greatest prime factor of the sum of each encrypted character, its sequence in the message, and the hash value of the password, as expressed below.
 
-Final Encrypted Code = The Randome Integer + GPF (Initial Encrypted Code + Sequence + the hash value of the password)
+Final Encrypted Code = The Random Integer + GPF (Initial Encrypted Code + Sequence + the hash value of the password)
 
-These mathematicatical operations are reversible; hence, the encrypted code can be decrypted. Moreover, I believe it's possible to come up with some mathematical rules that can achieve a more secured randomness that is hard to hack even with the most powerful computers available today. More work needs to be done in that area. With my current implementation, the same plaintext character may generate different encrypted code. And different plaintext characters may end up sharing the same encrypted code in the same message. Code unpredictability and duplication provide some value in deterring hacking with machine learning approaches.
+These mathematical operations are reversible; hence, the encrypted code can be decrypted. Moreover, I believe it's possible to come up with some mathematical rules that can achieve a more secured randomness that is hard to hack even with the most powerful computers available today. More work needs to be done in that area. With my current implementation, the same plaintext character may generate different encrypted code. And different plaintext characters may end up sharing the same encrypted code in the same message. Code unpredictability and duplication provide some value in deterring hacking with machine learning approaches.
 
 How to run the app
 
