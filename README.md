@@ -11,7 +11,9 @@ These mathematicatical operations are reversible; hence, the encrypted code can 
 How to run the app
 
 1) Download the source code. Run it with Visual Studio. The .NET Framework 4.71 or higher is required. 
+  
   OR
+  
 2) In Windows 10, download the source code and run RandomizedEncryptionCodeDemo.exe in \bin\debug
 
 Please note that the source code of my encryption algorithm is not included with this WFP demo app for security concern. The algorithm may be commercially viable someday. For now, a runtime version of the algorithm DLL is distributed instead.
